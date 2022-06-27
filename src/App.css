@@ -1,0 +1,39 @@
+.card-container{
+  text-align: center;
+  width:60vw;
+  overflow: auto;
+  justify-content: center;
+  align-content: center;
+  margin:3rem auto 1rem;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: 2fr repeat(3, 1fr) 2fr;
+  background-color: aqua
+}
+.name{
+  margin-top: 2rem;
+}
+.img {
+  /* background-color: black; */
+  margin-left: 3rem;
+  width:3rem;
+  text-align: center;
+}
+.img1{
+  margin-top: 0.5rem;
+  margin-left: 2.3rem;
+  width: 5rem;
+
+}
+.footer{
+  grid-column: 1/3;
+}
+button{
+  display:block;
+  margin: 1rem auto;
+  background: blue;
+  color: aliceblue;
+  padding: .5rem;
+  border: 0;
+  cursor: pointer;
+}
